@@ -7,6 +7,10 @@ China didn't open PM2.5 data to public until recently. The studio BestApp.us in 
 > native2ascii -encoding UTF-8 -reverse src.txt dest.txt
 * Use PrettyJSON in sublime2 to reformat JSON layout
 
+##Inspiring List
+* [BEIJING SMS EVE- SMS Data Visualization](https://vimeo.com/50247194)
+* [Beijing air vis](http://scottcheng.github.io/bj-air-vis/)
+
 ##Thanks Letter
 
 * API from [PM25.in](http://pm25.in/api_doc)
