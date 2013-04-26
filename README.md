@@ -9,10 +9,13 @@ China didn't open PM2.5 data to public until recently. The studio BestApp.us in 
 
 * Use PrettyJSON in sublime2 to reformat JSON layout
 
+<<<<<<< HEAD
 ##Data Sources
 * [Data Center of China's Department of Enviroment](http://datacenter.mep.gov.cn/)
 * [Beijing Air Dectection Center](http://www.bjmemc.com.cn/)
 
+=======
+>>>>>>> e4a8e7da25a0ee0fb53b3685e645deeae1b2289b
 ##Inspiring List
 * [BEIJING SMS EVE- SMS Data Visualization](https://vimeo.com/50247194)
 * [Beijing air vis](http://scottcheng.github.io/bj-air-vis/)
