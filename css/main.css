@@ -1,0 +1,10 @@
+body{
+	background-color: white;
+	font-family: "ClassicGrotesqueW01-Rg", Arial, "Hiragino Sans GB", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	font-size: 12px;
+	vertical-align: baseline;
+	outline: 0;
+}
+
+/* map style */
+#map { height: 540px; }

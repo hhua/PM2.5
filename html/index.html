@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   	<head>
+		<title>PM2.5 Visualization | Home</title>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!-- Bootstrap -->
+    	<link href="/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="/main.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+ 		<!--[if lte IE 8]>
+     		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
+ 		<![endif]-->
+ 		
+ 		<script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+ 		
+	</head>
+	<body>
+		<div class="container">
+			<div class="navbar">
+				<div class="navbar-inner">
+					<ul class="nav">
+  						<li class="active">
+    						<a href="/">PM2.5</a>
+  						</li>
+  						<li><a href="/map">Map</a></li>
+  						<li><a href="/cities">Cities</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="map"></div>
+		</div>
+
+		<script type="text/javascript">
+ 			var map = L.map('map').setView([51.505, -0.09], 13);
+
+ 			L.tileLayer('http://{s}.tile.cloudmade.com/95eb5787c9eb436c9d7733c0135e1106/82682/256/{z}/{x}/{y}.png', {attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>', maxZoom: 18}).addTo(map);
+ 		</script>
+		
+		<script src="http://code.jquery.com/jquery.js"></script>
+    	<script src="/bootstrap.min.js"></script>
+	</body>
+</html>
