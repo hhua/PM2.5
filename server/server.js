@@ -11,6 +11,10 @@ function start(route, handle){
 		route(handle, '/map', res);
 	});
 
+	app.get('/cities', function(req, res){
+		route(handle, '/cities', res);
+	});
+
 	app.use(express.static('./css'));
 	app.use(express.static('./js'));
 	app.use(express.static('./img'));
