@@ -23,5 +23,18 @@ function getAllCities(response){
   response.end();
 }
 
+function getAllCitiesData(response){
+	  console.log("Request handler 'allcities' was called.");
+
+  	//response.sendfile(__dirname + '/html/test.html');
+  	response.sendfile('./html/cities.html');
+}
+
+function parseAllCitiesData(response){
+
+}
+
 exports.start = start;
 exports.cities = getAllCities;
+exports.allcities = getAllCitiesData;
+exports.parseCityData = parseAllCitiesData;
