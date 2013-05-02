@@ -40,22 +40,7 @@
 		</div>
 
 		<script type="text/javascript">
-            // get air quality data
-            $(function(){
-                $.ajax({
-                url: '/cities', //the URL to your node.js server that has data
-                dataType: 'json',
-                cache: false
-            }).done(function(data){
-                //"data" will be JSON. Do what you want with it. 
-                alert(data);
-
-                }); 
-            });
-
-			//var aqiData = {max: 500, data : [{lat: 31.8100, lon: 119.97445, value: 93}, {lat: 32.202984, lon: 119.4238, value: 103}, {lat: 32.467540, lon: 119.92373, value: 118}, {lat: 33.623826, lon: 119.01599, value: 404}, {lat: 33.365002, lon: 120.168185, value: 77}, {lat: 33.975312, lon: 118.27579, value: 113}, {lat: 30.289371, lon: 120.15788, value: 134}, {lat: 29.872862, lon: 121.55177, value: 72}, {lat: 28.008407, lon: 120.69896, value: 130}, {lat: 30.004034, lon: 120.58545, value: 109}, {lat: 30.900193, lon: 120.08695, value: 86}, {lat: 30.760454, lon: 120.76158, value: 69}, {lat: 28.664143, lon: 121.420626, value: 97}, {lat: 29.985004, lon: 122.210061, value: 55}, {lat: 29.077806, lon: 119.650247, value: 124}, {lat: 28.96796, lon: 118.868365, value: 125}, {lat: 28.467213, lon: 119.926622, value: 92}, {lat: 31.822208, lon: 117.233462, value: 92}, {lat: 26.074117, lon: 119.304385, value: 62}, {lat: 24.480619, lon: 118.094652, value: 67}, {lat: 28.682818, lon: 115.852618, value: 119}, {lat: 36.651951, lon: 117.113986, value: 107}, {lat: 36.081405, lon: 120.398626, value: 500}]};
-
-			var geolocation = {
+            var geolocation = {
   "cities": {
     "上海": [31.257542, 121.469793],
     "东莞": [23.031780, 113.754229],
@@ -135,6 +120,29 @@
     "青岛": [36.068604,120.383086]
   }
 };
+            
+            // get air quality data
+            $(function(){
+                $.ajax({
+                url: '/cities', //the URL to your node.js server that has data
+                dataType: 'json',
+                cache: false
+            }).done(
+                mergeData);
+                //function(data){
+                //"data" will be JSON. Do what you want with it. 
+                //alert(data);
+
+                //}); 
+            });
+
+            function mergeData(data){
+                alert(data);
+            }
+
+			var aqiData = {max: 500, data : [{lat: 31.8100, lon: 119.97445, value: 93}, {lat: 32.202984, lon: 119.4238, value: 103}, {lat: 32.467540, lon: 119.92373, value: 118}, {lat: 33.623826, lon: 119.01599, value: 404}, {lat: 33.365002, lon: 120.168185, value: 77}, {lat: 33.975312, lon: 118.27579, value: 113}, {lat: 30.289371, lon: 120.15788, value: 134}, {lat: 29.872862, lon: 121.55177, value: 72}, {lat: 28.008407, lon: 120.69896, value: 130}, {lat: 30.004034, lon: 120.58545, value: 109}, {lat: 30.900193, lon: 120.08695, value: 86}, {lat: 30.760454, lon: 120.76158, value: 69}, {lat: 28.664143, lon: 121.420626, value: 97}, {lat: 29.985004, lon: 122.210061, value: 55}, {lat: 29.077806, lon: 119.650247, value: 124}, {lat: 28.96796, lon: 118.868365, value: 125}, {lat: 28.467213, lon: 119.926622, value: 92}, {lat: 31.822208, lon: 117.233462, value: 92}, {lat: 26.074117, lon: 119.304385, value: 62}, {lat: 24.480619, lon: 118.094652, value: 67}, {lat: 28.682818, lon: 115.852618, value: 119}, {lat: 36.651951, lon: 117.113986, value: 107}, {lat: 36.081405, lon: 120.398626, value: 500}]};
+            
+			
 
 			var map = L.map('map').setView([30.9043, 110.4677], 5);
 
