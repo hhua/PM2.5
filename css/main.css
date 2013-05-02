@@ -6,5 +6,11 @@ body{
 	outline: 0;
 }
 
+/* time zone */
+#timeupdate{
+	text-align: right;
+}
+
 /* map style */
 #map { height: 600px; }
+

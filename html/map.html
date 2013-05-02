@@ -64,9 +64,12 @@
                 <div class="span4 offset4" id="timeupdate"></div>
             </div>
 			<div id="map"></div>
+            <div id="infotable"></div>
 		</div>
 
 		<script type="text/javascript">
+
+
             var geolocation = {
     "上海": [31.257542, 121.469793],
     "东莞": [23.031780, 113.754229],
@@ -164,15 +167,75 @@
                 //alert(data);
                 var parsedData = JSON.parse(JSON.stringify(data));
 
-                //alert(parsedData);
+                // last update time
+                var element = parsedData[0].time_point;
+                var dateTime = element.split('T');
+                var dateArray = dateTime[0].split('-');
+                var timeArray = dateTime[1].split(':');
 
-                //var element = parsedData[0].area;
+                var d = new Date(dateArray[0], dateArray[1] - 1, dateArray[2], timeArray[0], timeArray[1], timeArray[2].substring(0, 2), 0);
+                var dString = d.toString();
+                dString = dString.substring(3, dString.length - 15);
+
+                document.getElementById('timeupdate').innerHTML = "Last Update: " + dString + " UTC+8";
 
                 //alert(element);
                 drawMap(parsedData);
             }
 
             function drawMap(data){
+                // show information table
+                var infotable = {};
+                for (var i = 0; i < data.length; i++){
+                    var area = data[i].area;
+                    if(area in infotable){ // exists
+                        var item = infotable[area];
+                        if(data[i].aqi > item[0]){
+                            item[0] = data[i].aqi;
+                            item[1] = data[i].no2;
+                            item[2] = data[i].o3_8h;
+                            item[3] = data[i].pm10;
+                            item[4] = data[i].pm2_5;
+                            item[5] = data[i].so2;
+                            item[6] = data[i].quality;
+                            infotable[area] = item;
+                        }
+                    }else{
+                        if(area != null){
+                        var LatLng = geolocation[area];
+                        var item = [];
+                        item[0] = data[i].aqi;
+                        item[1] = data[i].no2;
+                        item[2] = data[i].o3_8h;
+                        item[3] = data[i].pm10;
+                        item[4] = data[i].pm2_5;
+                        item[5] = data[i].so2;
+                        item[6] = data[i].quality;
+                        infotable[area] = item;
+                        }
+                    }
+                }
+
+                var table = document.getElementById('infotable');
+                var content = '<table class="table table-striped"><caption>AQI for cities</caption><thead><tr><th>City</th><th>AQI</th><th>NO2</th><th>O3 8h</th><th>PM10</th><th>PM2.5</th><th>SO2</th><th>Quality Level</th></tr></thead><tbody>';
+
+                Object.keys(infotable).forEach(function (key){
+                    var item = infotable[key];
+                    var new_item = '<tr>';
+                    new_item += '<td>' + key + '</td>';
+                    new_item += '<td>' + item[0] + '</td>';
+                    new_item += '<td>' + item[1] + '</td>';
+                    new_item += '<td>' + item[2] + '</td>';
+                    new_item += '<td>' + item[3] + '</td>';
+                    new_item += '<td>' + item[4] + '</td>';
+                    new_item += '<td>' + item[5] + '</td>';
+                    new_item += '<td>' + item[6] + '</td>';
+                    new_item += '</tr>';
+                    content += new_item;
+                });
+                content += '</tbody></table>';
+                table.innerHTML = content;
+
                 // extract aqi
                 var aqiList = {};
                 for (var i = 0; i < data.length; i++){
