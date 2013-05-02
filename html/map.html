@@ -59,11 +59,32 @@
 					</ul>
 				</div>
 			</div>
+
+            <div class="row">
+                <div class="span12">
+                    An astounishing sand storm happened this spring in Beijing and devoured everything in sight. The PM2.5 reaches beyond range of certain standards for air quality measurement to 516, in which the highest measuable value is 500. What is more astonishing is that government was trying to conceal real number of these important data. They even critized foreign news agencies and government departments of spreading "fake news" to China's public. Of course, in this campaign, the government lost all of its trust from people. However, that is not enough. The public have the right to know real data, and key data with relation to life and death of people should be spread freely.
+                    <br />
+                    <br />
+
+                    Thanks to BestApp.us lab in Guangzhou, China, I am allowed to launch this project to collect air quality data of 76 cities in China and provide a better way of visualizing air quality data in China and spread it to more people in China. Next step for this project is to connect health protection information with specific dangerous air pollution weather. 
+
+                    <br />
+                    <br />
+
+                    Data sources of this project are merged by BestApp lab. The are specifically collected from US Embassy in Beijing, EPA and Department of Environment of China, etc. Data could be with come flaws within a certain level. A pressure should be always on the shoulder of government why air pollution is so severe and how much economic growth did cost in the past 30 years.
+                    <br />
+                    <br />
+                </div>
+            </div>
             <div class="row">
                 <div class="span4" id="timenow"></div>
                 <div class="span4 offset4" id="timeupdate"></div>
             </div>
 			<div id="map"></div>
+            <div id="legend" class="row">
+                <div class="span1">Good</div>
+                <div class="span1 offset9">Hazardous</div>
+            </div>
             <div id="infotable"></div>
 		</div>
 
@@ -149,6 +170,14 @@
     "青岛": [36.068604,120.383086]
     };
             
+            var quality = {
+                "优": "Good",
+                "良": "Moderate",
+                "轻度污染": "Unhealthy for Sensitive Groups",
+                "中度污染": "Unhealthy",
+                "严重污染": "Very Unhealthy, Even Hazardous"
+            };
+
             // get air quality data
             $(function(){
                 $.ajax({
@@ -229,7 +258,7 @@
                     new_item += '<td>' + item[3] + '</td>';
                     new_item += '<td>' + item[4] + '</td>';
                     new_item += '<td>' + item[5] + '</td>';
-                    new_item += '<td>' + item[6] + '</td>';
+                    new_item += '<td>' + item[6] + ' | ' + quality[item[6]] + '</td>';
                     new_item += '</tr>';
                     content += new_item;
                 });

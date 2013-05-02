@@ -14,3 +14,22 @@ body{
 /* map style */
 #map { height: 600px; }
 
+/* legend area */
+#legend {
+	height: 25px;
+	margin-left: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-image: linear-gradient(left, blue, green 45%, yellow 90%, red);
+	background-image: -webkit-linear-gradient(left, blue, green 45%, yellow 90%, red);
+}
+
+#legend .span1{
+	color: white;
+}
+
+#legend .offset9{
+	color: black;
+	text-align: right;
+}
+
