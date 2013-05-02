@@ -31,7 +31,13 @@ function getAllCitiesData(response){
 }
 
 function parseAllCitiesData(response){
+    console.log("Request handler 'parse' was called.");
 
+    response.writeHead(200, {"Content-Type": "application/json"});
+
+    
+
+    response.end();
 }
 
 exports.start = start;

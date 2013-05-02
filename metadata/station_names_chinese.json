@@ -1,0 +1,2418 @@
+[
+  {
+    "city": "天津",
+    "stations": [
+      {
+        "station_name": "市监测中心",
+        "station_code": "1013A"
+      },
+      {
+        "station_name": "机车车辆厂",
+        "station_code": "1014A"
+      },
+      {
+        "station_name": "继电器厂",
+        "station_code": "1015A"
+      },
+      {
+        "station_name": "南京路",
+        "station_code": "1016A"
+      },
+      {
+        "station_name": "河东站",
+        "station_code": "1017A"
+      },
+      {
+        "station_name": "河西站",
+        "station_code": "1018A"
+      },
+      {
+        "station_name": "北辰科技园区",
+        "station_code": "1019A"
+      },
+      {
+        "station_name": "天山路",
+        "station_code": "1020A"
+      },
+      {
+        "station_name": "东丽中学",
+        "station_code": "1021A"
+      },
+      {
+        "station_name": "梅江小区",
+        "station_code": "1022A"
+      },
+      {
+        "station_name": "泰丰工业园",
+        "station_code": "1023A"
+      },
+      {
+        "station_name": "永明路",
+        "station_code": "1024A"
+      },
+      {
+        "station_name": "空港物流加工区",
+        "station_code": "1025A"
+      },
+      {
+        "station_name": "中新生态城",
+        "station_code": "1026A"
+      },
+      {
+        "station_name": "团泊洼",
+        "station_code": "1027A"
+      }
+    ]
+  },
+  {
+    "city": "石家庄",
+    "stations": [
+      {
+        "station_name": "化工学校",
+        "station_code": "1028A"
+      },
+      {
+        "station_name": "职工医院",
+        "station_code": "1029A"
+      },
+      {
+        "station_name": "高新区",
+        "station_code": "1030A"
+      },
+      {
+        "station_name": "西北水源",
+        "station_code": "1031A"
+      },
+      {
+        "station_name": "西南高教",
+        "station_code": "1032A"
+      },
+      {
+        "station_name": "世纪公园",
+        "station_code": "1033A"
+      },
+      {
+        "station_name": "人民会堂",
+        "station_code": "1034A"
+      },
+      {
+        "station_name": "封龙山",
+        "station_code": "1035A"
+      }
+    ]
+  },
+  {
+    "city": "唐山",
+    "stations": [
+      {
+        "station_name": "供销社",
+        "station_code": "1036A"
+      },
+      {
+        "station_name": "雷达站",
+        "station_code": "1037A"
+      },
+      {
+        "station_name": "物资局",
+        "station_code": "1038A"
+      },
+      {
+        "station_name": "陶瓷公司",
+        "station_code": "1039A"
+      },
+      {
+        "station_name": "十二中",
+        "station_code": "1040A"
+      },
+      {
+        "station_name": "小山",
+        "station_code": "1041A"
+      }
+    ]
+  },
+  {
+    "city": "秦皇岛",
+    "stations": [
+      {
+        "station_name": "北戴河环保局",
+        "station_code": "1042A"
+      },
+      {
+        "station_name": "第一关",
+        "station_code": "1043A"
+      },
+      {
+        "station_name": "监测站",
+        "station_code": "1044A"
+      },
+      {
+        "station_name": "市政府",
+        "station_code": "1045A"
+      },
+      {
+        "station_name": "建设大夏",
+        "station_code": "1046A"
+      }
+    ]
+  },
+  {
+    "city": "邯郸",
+    "stations": [
+      {
+        "station_name": "环保局",
+        "station_code": "1047A"
+      },
+      {
+        "station_name": "东污水处理厂",
+        "station_code": "1048A"
+      },
+      {
+        "station_name": "矿院",
+        "station_code": "1049A"
+      },
+      {
+        "station_name": "丛台公园",
+        "station_code": "1050A"
+      }
+    ]
+  },
+  {
+    "city": "保定",
+    "stations": [
+      {
+        "station_name": "游泳馆",
+        "station_code": "1051A"
+      },
+      {
+        "station_name": "华电二区",
+        "station_code": "1052A"
+      },
+      {
+        "station_name": "接待中心",
+        "station_code": "1053A"
+      },
+      {
+        "station_name": "地表水厂",
+        "station_code": "1054A"
+      },
+      {
+        "station_name": "胶片厂",
+        "station_code": "1055A"
+      },
+      {
+        "station_name": "监测站",
+        "station_code": "1056A"
+      }
+    ]
+  },
+  {
+    "city": "张家口",
+    "stations": [
+      {
+        "station_name": "人民公园",
+        "station_code": "1057A"
+      },
+      {
+        "station_name": "探机厂",
+        "station_code": "1058A"
+      },
+      {
+        "station_name": "五金库",
+        "station_code": "1059A"
+      },
+      {
+        "station_name": "世纪豪园",
+        "station_code": "1060A"
+      },
+      {
+        "station_name": "北泵房",
+        "station_code": "1061A"
+      }
+    ]
+  },
+  {
+    "city": "承德",
+    "stations": [
+      {
+        "station_name": "铁路",
+        "station_code": "1062A"
+      },
+      {
+        "station_name": "中国银行",
+        "station_code": "1063A"
+      },
+      {
+        "station_name": "开发区",
+        "station_code": "1064A"
+      },
+      {
+        "station_name": "文化中心",
+        "station_code": "1065A"
+      },
+      {
+        "station_name": "离宫",
+        "station_code": "1066A"
+      }
+    ]
+  },
+  {
+    "city": "廊坊",
+    "stations": [
+      {
+        "station_name": "药材公司",
+        "station_code": "1067A"
+      },
+      {
+        "station_name": "开发区",
+        "station_code": "1068A"
+      },
+      {
+        "station_name": "环境监测监理中心",
+        "station_code": "1069A"
+      },
+      {
+        "station_name": "北华航天学校",
+        "station_code": "1070A"
+      }
+    ]
+  },
+  {
+    "city": "沧州",
+    "stations": [
+      {
+        "station_name": "沧县城建局",
+        "station_code": "1071A"
+      },
+      {
+        "station_name": "电视转播站",
+        "station_code": "1072A"
+      },
+      {
+        "station_name": "市环保局",
+        "station_code": "1073A"
+      }
+    ]
+  },
+  {
+    "city": "衡水",
+    "stations": [
+      {
+        "station_name": "电机北厂",
+        "station_code": "1074A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1075A"
+      },
+      {
+        "station_name": "市环保局",
+        "station_code": "1076A"
+      }
+    ]
+  },
+  {
+    "city": "邢台",
+    "stations": [
+      {
+        "station_name": "达活泉",
+        "station_code": "1077A"
+      },
+      {
+        "station_name": "邢师高专",
+        "station_code": "1078A"
+      },
+      {
+        "station_name": "路桥公司",
+        "station_code": "1079A"
+      },
+      {
+        "station_name": "市环保局",
+        "station_code": "1080A"
+      }
+    ]
+  },
+  {
+    "city": "太原",
+    "stations": [
+      {
+        "station_name": "尖草坪",
+        "station_code": "1081A"
+      },
+      {
+        "station_name": "涧河",
+        "station_code": "1082A"
+      },
+      {
+        "station_name": "上兰",
+        "station_code": "1083A"
+      },
+      {
+        "station_name": "晋源",
+        "station_code": "1084A"
+      },
+      {
+        "station_name": "小店",
+        "station_code": "1085A"
+      },
+      {
+        "station_name": "桃园",
+        "station_code": "1086A"
+      },
+      {
+        "station_name": "坞城",
+        "station_code": "1087A"
+      },
+      {
+        "station_name": "南寨",
+        "station_code": "1088A"
+      },
+      {
+        "station_name": "金胜",
+        "station_code": "1089A"
+      }
+    ]
+  },
+  {
+    "city": "呼和浩特",
+    "stations": [
+      {
+        "station_name": "呼市一监",
+        "station_code": "1090A"
+      },
+      {
+        "station_name": "小召",
+        "station_code": "1091A"
+      },
+      {
+        "station_name": "兴松小区",
+        "station_code": "1092A"
+      },
+      {
+        "station_name": "糖厂",
+        "station_code": "1093A"
+      },
+      {
+        "station_name": "如意水处理厂",
+        "station_code": "1094A"
+      },
+      {
+        "station_name": "二十九中",
+        "station_code": "1095A"
+      },
+      {
+        "station_name": "工大金川校区",
+        "station_code": "1096A"
+      },
+      {
+        "station_name": "化肥厂生活区",
+        "station_code": "1097A"
+      }
+    ]
+  },
+  {
+    "city": "沈阳",
+    "stations": [
+      {
+        "station_name": "辉山",
+        "station_code": "1098A"
+      },
+      {
+        "station_name": "浑南二",
+        "station_code": "1099A"
+      },
+      {
+        "station_name": "东软",
+        "station_code": "1100A"
+      },
+      {
+        "station_name": "张士",
+        "station_code": "1101A"
+      },
+      {
+        "station_name": "炮兵学院",
+        "station_code": "1102A"
+      },
+      {
+        "station_name": "北陵",
+        "station_code": "1103A"
+      },
+      {
+        "station_name": "文艺路",
+        "station_code": "1104A"
+      },
+      {
+        "station_name": "小河沿",
+        "station_code": "1105A"
+      },
+      {
+        "station_name": "太原街",
+        "station_code": "1106A"
+      },
+      {
+        "station_name": "二毛",
+        "station_code": "1107A"
+      },
+      {
+        "station_name": "辽大",
+        "station_code": "1108A"
+      }
+    ]
+  },
+  {
+    "city": "大连",
+    "stations": [
+      {
+        "station_name": "甘井子",
+        "station_code": "1109A"
+      },
+      {
+        "station_name": "周水子",
+        "station_code": "1110A"
+      },
+      {
+        "station_name": "星海三站",
+        "station_code": "1111A"
+      },
+      {
+        "station_name": "青泥洼桥",
+        "station_code": "1112A"
+      },
+      {
+        "station_name": "傅家庄",
+        "station_code": "1113A"
+      },
+      {
+        "station_name": "七贤岭",
+        "station_code": "1114A"
+      },
+      {
+        "station_name": "旅顺",
+        "station_code": "1115A"
+      },
+      {
+        "station_name": "金州",
+        "station_code": "1116A"
+      },
+      {
+        "station_name": "开发区",
+        "station_code": "1117A"
+      },
+      {
+        "station_name": "双D港",
+        "station_code": "1118A"
+      }
+    ]
+  },
+  {
+    "city": "长春",
+    "stations": [
+      {
+        "station_name": "食品厂",
+        "station_code": "1119A"
+      },
+      {
+        "station_name": "客车厂",
+        "station_code": "1120A"
+      },
+      {
+        "station_name": "邮电学院",
+        "station_code": "1121A"
+      },
+      {
+        "station_name": "劳动公园",
+        "station_code": "1122A"
+      },
+      {
+        "station_name": "园林处",
+        "station_code": "1123A"
+      },
+      {
+        "station_name": "净月潭",
+        "station_code": "1124A"
+      },
+      {
+        "station_name": "甩湾子",
+        "station_code": "1125A"
+      },
+      {
+        "station_name": "经开区环卫处",
+        "station_code": "1126A"
+      },
+      {
+        "station_name": "高新区管委会",
+        "station_code": "1127A"
+      },
+      {
+        "station_name": "岱山公园",
+        "station_code": "1128A"
+      }
+    ]
+  },
+  {
+    "city": "哈尔滨",
+    "stations": [
+      {
+        "station_name": "岭北",
+        "station_code": "1129A"
+      },
+      {
+        "station_name": "松北商大",
+        "station_code": "1130A"
+      },
+      {
+        "station_name": "阿城会宁",
+        "station_code": "1131A"
+      },
+      {
+        "station_name": "南岗学府路",
+        "station_code": "1132A"
+      },
+      {
+        "station_name": "太平宏伟公园",
+        "station_code": "1133A"
+      },
+      {
+        "station_name": "道外承德广场",
+        "station_code": "1134A"
+      },
+      {
+        "station_name": "香坊红旗大街",
+        "station_code": "1135A"
+      },
+      {
+        "station_name": "动力和平路",
+        "station_code": "1136A"
+      },
+      {
+        "station_name": "道里建国路",
+        "station_code": "1137A"
+      },
+      {
+        "station_name": "平房东轻厂",
+        "station_code": "1138A"
+      },
+      {
+        "station_name": "呼兰师专",
+        "station_code": "1139A"
+      },
+      {
+        "station_name": "省农科院",
+        "station_code": "1140A"
+      }
+    ]
+  },
+  {
+    "city": "上海",
+    "stations": [
+      {
+        "station_name": "普陀",
+        "station_code": "1141A"
+      },
+      {
+        "station_name": "十五厂",
+        "station_code": "1142A"
+      },
+      {
+        "station_name": "虹口",
+        "station_code": "1143A"
+      },
+      {
+        "station_name": "徐汇上师大",
+        "station_code": "1144A"
+      },
+      {
+        "station_name": "杨浦四漂",
+        "station_code": "1145A"
+      },
+      {
+        "station_name": "青浦淀山湖",
+        "station_code": "1146A"
+      },
+      {
+        "station_name": "静安监测站",
+        "station_code": "1147A"
+      },
+      {
+        "station_name": "浦东川沙",
+        "station_code": "1148A"
+      },
+      {
+        "station_name": "浦东新区监测站",
+        "station_code": "1149A"
+      },
+      {
+        "station_name": "浦东张江",
+        "station_code": "1150A"
+      }
+    ]
+  },
+  {
+    "city": "南京",
+    "stations": [
+      {
+        "station_name": "迈皋桥",
+        "station_code": "1151A"
+      },
+      {
+        "station_name": "草场门",
+        "station_code": "1152A"
+      },
+      {
+        "station_name": "山西路",
+        "station_code": "1153A"
+      },
+      {
+        "station_name": "中华门",
+        "station_code": "1154A"
+      },
+      {
+        "station_name": "瑞金路",
+        "station_code": "1155A"
+      },
+      {
+        "station_name": "玄武湖",
+        "station_code": "1156A"
+      },
+      {
+        "station_name": "浦口",
+        "station_code": "1157A"
+      },
+      {
+        "station_name": "奥体中心",
+        "station_code": "1158A"
+      },
+      {
+        "station_name": "仙林大学城",
+        "station_code": "1159A"
+      }
+    ]
+  },
+  {
+    "city": "苏州",
+    "stations": [
+      {
+        "station_name": "上方山",
+        "station_code": "1160A"
+      },
+      {
+        "station_name": "南门",
+        "station_code": "1161A"
+      },
+      {
+        "station_name": "彩香",
+        "station_code": "1162A"
+      },
+      {
+        "station_name": "轧钢厂",
+        "station_code": "1163A"
+      },
+      {
+        "station_name": "吴中区",
+        "station_code": "1164A"
+      },
+      {
+        "station_name": "苏州新区",
+        "station_code": "1165A"
+      },
+      {
+        "station_name": "苏州工业园区",
+        "station_code": "1166A"
+      },
+      {
+        "station_name": "相城区",
+        "station_code": "1167A"
+      }
+    ]
+  },
+  {
+    "city": "南通",
+    "stations": [
+      {
+        "station_name": "南郊",
+        "station_code": "1168A"
+      },
+      {
+        "station_name": "虹桥",
+        "station_code": "1169A"
+      },
+      {
+        "station_name": "城中",
+        "station_code": "1170A"
+      },
+      {
+        "station_name": "星湖花园",
+        "station_code": "1171A"
+      },
+      {
+        "station_name": "紫琅学院",
+        "station_code": "1172A"
+      }
+    ]
+  },
+  {
+    "city": "连云港",
+    "stations": [
+      {
+        "station_name": "市环境监测站",
+        "station_code": "1173A"
+      },
+      {
+        "station_name": "洪门派出所",
+        "station_code": "1174A"
+      },
+      {
+        "station_name": "墟沟核电专家村",
+        "station_code": "1175A"
+      },
+      {
+        "station_name": "开发区恒瑞医药公司",
+        "station_code": "1176A"
+      }
+    ]
+  },
+  {
+    "city": "徐州",
+    "stations": [
+      {
+        "station_name": "黄河新村",
+        "station_code": "1177A"
+      },
+      {
+        "station_name": "淮塔",
+        "station_code": "1178A"
+      },
+      {
+        "station_name": "铜山兽医院",
+        "station_code": "1179A"
+      },
+      {
+        "station_name": "新城区",
+        "station_code": "1180A"
+      },
+      {
+        "station_name": "桃园路",
+        "station_code": "1181A"
+      },
+      {
+        "station_name": "农科院",
+        "station_code": "1182A"
+      },
+      {
+        "station_name": "铜山区环保局",
+        "station_code": "1183A"
+      }
+    ]
+  },
+  {
+    "city": "扬州",
+    "stations": [
+      {
+        "station_name": "城东财政所",
+        "station_code": "1184A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1185A"
+      },
+      {
+        "station_name": "邗江监测站",
+        "station_code": "1186A"
+      },
+      {
+        "station_name": "第四医院",
+        "station_code": "1187A"
+      }
+    ]
+  },
+  {
+    "city": "无锡",
+    "stations": [
+      {
+        "station_name": "大学城",
+        "station_code": "1188A"
+      },
+      {
+        "station_name": "市北高中",
+        "station_code": "1189A"
+      },
+      {
+        "station_name": "曹张",
+        "station_code": "1190A"
+      },
+      {
+        "station_name": "漆塘",
+        "station_code": "1191A"
+      },
+      {
+        "station_name": "东亭",
+        "station_code": "1192A"
+      },
+      {
+        "station_name": "旺庄",
+        "station_code": "1193A"
+      },
+      {
+        "station_name": "育红小学",
+        "station_code": "1194A"
+      },
+      {
+        "station_name": "堰桥",
+        "station_code": "1195A"
+      }
+    ]
+  },
+  {
+    "city": "常州",
+    "stations": [
+      {
+        "station_name": "市监测站",
+        "station_code": "1196A"
+      },
+      {
+        "station_name": "城建学校",
+        "station_code": "1197A"
+      },
+      {
+        "station_name": "常工院",
+        "station_code": "1198A"
+      },
+      {
+        "station_name": "潞城",
+        "station_code": "1199A"
+      },
+      {
+        "station_name": "武进监测站",
+        "station_code": "1200A"
+      },
+      {
+        "station_name": "安家",
+        "station_code": "1201A"
+      }
+    ]
+  },
+  {
+    "city": "镇江",
+    "stations": [
+      {
+        "station_name": "环境监测站",
+        "station_code": "1202A"
+      },
+      {
+        "station_name": "新区办事处",
+        "station_code": "1203A"
+      },
+      {
+        "station_name": "职教中心",
+        "station_code": "1204A"
+      },
+      {
+        "station_name": "丹徒区监测站",
+        "station_code": "1205A"
+      }
+    ]
+  },
+  {
+    "city": "泰州",
+    "stations": [
+      {
+        "station_name": "公园路",
+        "station_code": "1206A"
+      },
+      {
+        "station_name": "莲花",
+        "station_code": "1207A"
+      },
+      {
+        "station_name": "高港区政府",
+        "station_code": "1208A"
+      },
+      {
+        "station_name": "留学生创业园",
+        "station_code": "1209A"
+      }
+    ]
+  },
+  {
+    "city": "淮安",
+    "stations": [
+      {
+        "station_name": "钵池山",
+        "station_code": "1210A"
+      },
+      {
+        "station_name": "北京南路",
+        "station_code": "1211A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1212A"
+      },
+      {
+        "station_name": "楚州区监测站",
+        "station_code": "1213A"
+      },
+      {
+        "station_name": "淮阴区监测站",
+        "station_code": "1214A"
+      }
+    ]
+  },
+  {
+    "city": "盐城",
+    "stations": [
+      {
+        "station_name": "盐城电厂",
+        "station_code": "1215A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1216A"
+      },
+      {
+        "station_name": "文峰中学",
+        "station_code": "1217A"
+      },
+      {
+        "station_name": "开发区管委会",
+        "station_code": "1218A"
+      }
+    ]
+  },
+  {
+    "city": "宿迁",
+    "stations": [
+      {
+        "station_name": "市监测站",
+        "station_code": "1219A"
+      },
+      {
+        "station_name": "宿迁学院",
+        "station_code": "1220A"
+      },
+      {
+        "station_name": "宿迁中学",
+        "station_code": "1221A"
+      },
+      {
+        "station_name": "宿豫区环保局",
+        "station_code": "1222A"
+      }
+    ]
+  },
+  {
+    "city": "杭州",
+    "stations": [
+      {
+        "station_name": "滨江",
+        "station_code": "1223A"
+      },
+      {
+        "station_name": "西溪",
+        "station_code": "1224A"
+      },
+      {
+        "station_name": "千岛湖",
+        "station_code": "1225A"
+      },
+      {
+        "station_name": "下沙",
+        "station_code": "1226A"
+      },
+      {
+        "station_name": "卧龙桥",
+        "station_code": "1227A"
+      },
+      {
+        "station_name": "浙江农大",
+        "station_code": "1228A"
+      },
+      {
+        "station_name": "朝晖五区",
+        "station_code": "1229A"
+      },
+      {
+        "station_name": "和睦小学",
+        "station_code": "1230A"
+      },
+      {
+        "station_name": "临平镇",
+        "station_code": "1231A"
+      },
+      {
+        "station_name": "城厢镇",
+        "station_code": "1232A"
+      },
+      {
+        "station_name": "云栖",
+        "station_code": "1233A"
+      }
+    ]
+  },
+  {
+    "city": "宁波",
+    "stations": [
+      {
+        "station_name": "区环保大楼",
+        "station_code": "1234A"
+      },
+      {
+        "station_name": "万里学院",
+        "station_code": "1235A"
+      },
+      {
+        "station_name": "龙赛医院",
+        "station_code": "1236A"
+      },
+      {
+        "station_name": "三江中学",
+        "station_code": "1237A"
+      },
+      {
+        "station_name": "市政管理站",
+        "station_code": "1238A"
+      },
+      {
+        "station_name": "钱湖水厂",
+        "station_code": "1239A"
+      },
+      {
+        "station_name": "太古小学",
+        "station_code": "1240A"
+      },
+      {
+        "station_name": "市环境监测中心",
+        "station_code": "1241A"
+      }
+    ]
+  },
+  {
+    "city": "温州",
+    "stations": [
+      {
+        "station_name": "瓯海",
+        "station_code": "1242A"
+      },
+      {
+        "station_name": "南浦",
+        "station_code": "1243A"
+      },
+      {
+        "station_name": "龙湾",
+        "station_code": "1244A"
+      },
+      {
+        "station_name": "市站",
+        "station_code": "1245A"
+      }
+    ]
+  },
+  {
+    "city": "绍兴",
+    "stations": [
+      {
+        "station_name": "袍江站",
+        "station_code": "1246A"
+      },
+      {
+        "station_name": "城东开发委",
+        "station_code": "1247A"
+      },
+      {
+        "station_name": "市环保站",
+        "station_code": "1248A"
+      }
+    ]
+  },
+  {
+    "city": "湖州",
+    "stations": [
+      {
+        "station_name": "城北水厂",
+        "station_code": "1249A"
+      },
+      {
+        "station_name": "城西水厂",
+        "station_code": "1250A"
+      },
+      {
+        "station_name": "吉山新村",
+        "station_code": "1251A"
+      }
+    ]
+  },
+  {
+    "city": "嘉兴",
+    "stations": [
+      {
+        "station_name": "清河小学",
+        "station_code": "1252A"
+      },
+      {
+        "station_name": "嘉兴学院",
+        "station_code": "1253A"
+      },
+      {
+        "station_name": "监测站",
+        "station_code": "1254A"
+      }
+    ]
+  },
+  {
+    "city": "台州",
+    "stations": [
+      {
+        "station_name": "黄岩环保大楼",
+        "station_code": "1255A"
+      },
+      {
+        "station_name": "台州环保大楼",
+        "station_code": "1256A"
+      },
+      {
+        "station_name": "路桥田洋王",
+        "station_code": "1257A"
+      }
+    ]
+  },
+  {
+    "city": "舟山",
+    "stations": [
+      {
+        "station_name": "定海檀枫",
+        "station_code": "1258A"
+      },
+      {
+        "station_name": "普陀东港",
+        "station_code": "1259A"
+      },
+      {
+        "station_name": "临城新区",
+        "station_code": "1260A"
+      }
+    ]
+  },
+  {
+    "city": "金华",
+    "stations": [
+      {
+        "station_name": "四中",
+        "station_code": "1261A"
+      },
+      {
+        "station_name": "十五中",
+        "station_code": "1262A"
+      },
+      {
+        "station_name": "监测站",
+        "station_code": "1263A"
+      }
+    ]
+  },
+  {
+    "city": "衢州",
+    "stations": [
+      {
+        "station_name": "环保大楼",
+        "station_code": "1264A"
+      },
+      {
+        "station_name": "实验学校",
+        "station_code": "1265A"
+      },
+      {
+        "station_name": "衢州学院",
+        "station_code": "1266A"
+      }
+    ]
+  },
+  {
+    "city": "丽水",
+    "stations": [
+      {
+        "station_name": "监测站大楼",
+        "station_code": "1267A"
+      },
+      {
+        "station_name": "莲都小学",
+        "station_code": "1268A"
+      },
+      {
+        "station_name": "余庄前",
+        "station_code": "1269A"
+      }
+    ]
+  },
+  {
+    "city": "合肥",
+    "stations": [
+      {
+        "station_name": "明珠广场",
+        "station_code": "1270A"
+      },
+      {
+        "station_name": "三里街",
+        "station_code": "1271A"
+      },
+      {
+        "station_name": "琥珀山庄",
+        "station_code": "1272A"
+      },
+      {
+        "station_name": "董铺水库",
+        "station_code": "1273A"
+      },
+      {
+        "station_name": "长江中路",
+        "station_code": "1274A"
+      },
+      {
+        "station_name": "庐阳区",
+        "station_code": "1275A"
+      },
+      {
+        "station_name": "瑶海区",
+        "station_code": "1276A"
+      },
+      {
+        "station_name": "包河区",
+        "station_code": "1277A"
+      },
+      {
+        "station_name": "滨湖新区",
+        "station_code": "1278A"
+      },
+      {
+        "station_name": "高新区",
+        "station_code": "1279A"
+      }
+    ]
+  },
+  {
+    "city": "福州",
+    "stations": [
+      {
+        "station_name": "鼓山",
+        "station_code": "1280A"
+      },
+      {
+        "station_name": "快安",
+        "station_code": "1281A"
+      },
+      {
+        "station_name": "师大",
+        "station_code": "1282A"
+      },
+      {
+        "station_name": "五四北路",
+        "station_code": "1283A"
+      },
+      {
+        "station_name": "杨桥西路",
+        "station_code": "1284A"
+      },
+      {
+        "station_name": "紫阳",
+        "station_code": "1285A"
+      }
+    ]
+  },
+  {
+    "city": "厦门",
+    "stations": [
+      {
+        "station_name": "溪东",
+        "station_code": "1286A"
+      },
+      {
+        "station_name": "洪文",
+        "station_code": "1287A"
+      },
+      {
+        "station_name": "鼓浪屿",
+        "station_code": "1288A"
+      },
+      {
+        "station_name": "湖里",
+        "station_code": "1289A"
+      }
+    ]
+  },
+  {
+    "city": "南昌",
+    "stations": [
+      {
+        "station_name": "省外办",
+        "station_code": "1290A"
+      },
+      {
+        "station_name": "省林业公司",
+        "station_code": "1291A"
+      },
+      {
+        "station_name": "林科所",
+        "station_code": "1292A"
+      },
+      {
+        "station_name": "京东镇政府",
+        "station_code": "1293A"
+      },
+      {
+        "station_name": "建工学校",
+        "station_code": "1294A"
+      },
+      {
+        "station_name": "象湖",
+        "station_code": "1295A"
+      },
+      {
+        "station_name": "武术学校",
+        "station_code": "1296A"
+      },
+      {
+        "station_name": "石化",
+        "station_code": "1297A"
+      },
+      {
+        "station_name": "省站",
+        "station_code": "1298A"
+      }
+    ]
+  },
+  {
+    "city": "济南",
+    "stations": [
+      {
+        "station_name": "科干所",
+        "station_code": "1299A"
+      },
+      {
+        "station_name": "农科所",
+        "station_code": "1300A"
+      },
+      {
+        "station_name": "开发区",
+        "station_code": "1301A"
+      },
+      {
+        "station_name": "济南化工厂",
+        "station_code": "1302A"
+      },
+      {
+        "station_name": "省种子仓库",
+        "station_code": "1303A"
+      },
+      {
+        "station_name": "机床二厂",
+        "station_code": "1304A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1305A"
+      },
+      {
+        "station_name": "长清党校",
+        "station_code": "1306A"
+      }
+    ]
+  },
+  {
+    "city": "青岛",
+    "stations": [
+      {
+        "station_name": "仰口",
+        "station_code": "1307A"
+      },
+      {
+        "station_name": "李沧区子站",
+        "station_code": "1308A"
+      },
+      {
+        "station_name": "市北区子站",
+        "station_code": "1309A"
+      },
+      {
+        "station_name": "市南区东部子站",
+        "station_code": "1310A"
+      },
+      {
+        "station_name": "四方区子站",
+        "station_code": "1311A"
+      },
+      {
+        "station_name": "市南区西部子站",
+        "station_code": "1312A"
+      },
+      {
+        "station_name": "崂山区子站",
+        "station_code": "1313A"
+      },
+      {
+        "station_name": "黄岛区子站",
+        "station_code": "1314A"
+      },
+      {
+        "station_name": "城阳区子站",
+        "station_code": "1315A"
+      }
+    ]
+  },
+  {
+    "city": "郑州",
+    "stations": [
+      {
+        "station_name": "烟厂",
+        "station_code": "1316A"
+      },
+      {
+        "station_name": "郑纺机",
+        "station_code": "1317A"
+      },
+      {
+        "station_name": "银行学校",
+        "station_code": "1318A"
+      },
+      {
+        "station_name": "供水公司",
+        "station_code": "1319A"
+      },
+      {
+        "station_name": "经开区管委",
+        "station_code": "1320A"
+      },
+      {
+        "station_name": "四十七中",
+        "station_code": "1321A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1322A"
+      },
+      {
+        "station_name": "河医大",
+        "station_code": "1323A"
+      },
+      {
+        "station_name": "岗李水库",
+        "station_code": "1324A"
+      }
+    ]
+  },
+  {
+    "city": "武汉",
+    "stations": [
+      {
+        "station_name": "东湖梨园",
+        "station_code": "1325A"
+      },
+      {
+        "station_name": "汉阳月湖",
+        "station_code": "1326A"
+      },
+      {
+        "station_name": "汉口花桥",
+        "station_code": "1327A"
+      },
+      {
+        "station_name": "武昌紫阳",
+        "station_code": "1328A"
+      },
+      {
+        "station_name": "青山钢花",
+        "station_code": "1329A"
+      },
+      {
+        "station_name": "沌口新区",
+        "station_code": "1330A"
+      },
+      {
+        "station_name": "汉口江滩",
+        "station_code": "1331A"
+      },
+      {
+        "station_name": "东湖高新",
+        "station_code": "1332A"
+      },
+      {
+        "station_name": "吴家山",
+        "station_code": "1333A"
+      },
+      {
+        "station_name": "沉湖七壕",
+        "station_code": "1334A"
+      }
+    ]
+  },
+  {
+    "city": "长沙",
+    "stations": [
+      {
+        "station_name": "经开区环保局",
+        "station_code": "1335A"
+      },
+      {
+        "station_name": "高开区环保局",
+        "station_code": "1336A"
+      },
+      {
+        "station_name": "马坡岭",
+        "station_code": "1337A"
+      },
+      {
+        "station_name": "湖南师范大学",
+        "station_code": "1338A"
+      },
+      {
+        "station_name": "雨花区环保局",
+        "station_code": "1339A"
+      },
+      {
+        "station_name": "伍家岭",
+        "station_code": "1340A"
+      },
+      {
+        "station_name": "火车新站",
+        "station_code": "1341A"
+      },
+      {
+        "station_name": "天心区环保局",
+        "station_code": "1342A"
+      },
+      {
+        "station_name": "湖南中医药大学",
+        "station_code": "1343A"
+      },
+      {
+        "station_name": "沙坪",
+        "station_code": "1344A"
+      }
+    ]
+  },
+  {
+    "city": "广州",
+    "stations": [
+      {
+        "station_name": "广雅中学",
+        "station_code": "1345A"
+      },
+      {
+        "station_name": "市五中",
+        "station_code": "1346A"
+      },
+      {
+        "station_name": "天河职幼",
+        "station_code": "1347A"
+      },
+      {
+        "station_name": "广东商学院",
+        "station_code": "1348A"
+      },
+      {
+        "station_name": "市八十六中",
+        "station_code": "1349A"
+      },
+      {
+        "station_name": "番禺中学",
+        "station_code": "1350A"
+      },
+      {
+        "station_name": "花都师范",
+        "station_code": "1351A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1352A"
+      },
+      {
+        "station_name": "九龙镇镇龙",
+        "station_code": "1353A"
+      },
+      {
+        "station_name": "麓湖",
+        "station_code": "1354A"
+      },
+      {
+        "station_name": "帽峰山森林公园",
+        "station_code": "1355A"
+      }
+    ]
+  },
+  {
+    "city": "深圳",
+    "stations": [
+      {
+        "station_name": "荔园",
+        "station_code": "1356A"
+      },
+      {
+        "station_name": "洪湖",
+        "station_code": "1357A"
+      },
+      {
+        "station_name": "华侨城",
+        "station_code": "1358A"
+      },
+      {
+        "station_name": "南油",
+        "station_code": "1359A"
+      },
+      {
+        "station_name": "盐田",
+        "station_code": "1360A"
+      },
+      {
+        "station_name": "龙岗",
+        "station_code": "1361A"
+      },
+      {
+        "station_name": "西乡",
+        "station_code": "1362A"
+      },
+      {
+        "station_name": "南澳",
+        "station_code": "1363A"
+      },
+      {
+        "station_name": "葵涌",
+        "station_code": "1364A"
+      },
+      {
+        "station_name": "梅沙",
+        "station_code": "1365A"
+      },
+      {
+        "station_name": "观澜",
+        "station_code": "1366A"
+      }
+    ]
+  },
+  {
+    "city": "珠海",
+    "stations": [
+      {
+        "station_name": "吉大",
+        "station_code": "1367A"
+      },
+      {
+        "station_name": "前山",
+        "station_code": "1368A"
+      },
+      {
+        "station_name": "唐家",
+        "station_code": "1369A"
+      },
+      {
+        "station_name": "斗门",
+        "station_code": "1370A"
+      }
+    ]
+  },
+  {
+    "city": "佛山",
+    "stations": [
+      {
+        "station_name": "湾梁",
+        "station_code": "1371A"
+      },
+      {
+        "station_name": "华材职中",
+        "station_code": "1372A"
+      },
+      {
+        "station_name": "南海气象局",
+        "station_code": "1373A"
+      },
+      {
+        "station_name": "顺德苏岗",
+        "station_code": "1374A"
+      },
+      {
+        "station_name": "容桂街道办",
+        "station_code": "1375A"
+      },
+      {
+        "station_name": "高明孔堂",
+        "station_code": "1376A"
+      },
+      {
+        "station_name": "三水监测站",
+        "station_code": "1377A"
+      },
+      {
+        "station_name": "三水云东海",
+        "station_code": "1378A"
+      }
+    ]
+  },
+  {
+    "city": "中山",
+    "stations": [
+      {
+        "station_name": "华柏园",
+        "station_code": "1379A"
+      },
+      {
+        "station_name": "张溪",
+        "station_code": "1380A"
+      },
+      {
+        "station_name": "紫马岭",
+        "station_code": "1381A"
+      },
+      {
+        "station_name": "长江旅游区",
+        "station_code": "1382A"
+      }
+    ]
+  },
+  {
+    "city": "江门",
+    "stations": [
+      {
+        "station_name": "北街",
+        "station_code": "1383A"
+      },
+      {
+        "station_name": "西区",
+        "station_code": "1384A"
+      },
+      {
+        "station_name": "圭峰西",
+        "station_code": "1385A"
+      },
+      {
+        "station_name": "东湖",
+        "station_code": "1386A"
+      }
+    ]
+  },
+  {
+    "city": "东莞",
+    "stations": [
+      {
+        "station_name": "实验中学",
+        "station_code": "1387A"
+      },
+      {
+        "station_name": "南城元岭",
+        "station_code": "1388A"
+      },
+      {
+        "station_name": "莞城二水厂",
+        "station_code": "1389A"
+      },
+      {
+        "station_name": "东城石井",
+        "station_code": "1390A"
+      },
+      {
+        "station_name": "南城西平",
+        "station_code": "1391A"
+      }
+    ]
+  },
+  {
+    "city": "惠州",
+    "stations": [
+      {
+        "station_name": "河南岸金山湖子站",
+        "station_code": "1392A"
+      },
+      {
+        "station_name": "下埔横江三路子站",
+        "station_code": "1393A"
+      },
+      {
+        "station_name": "江北云山西路子站",
+        "station_code": "1394A"
+      },
+      {
+        "station_name": "惠阳区承修路船湖子站",
+        "station_code": "1395A"
+      },
+      {
+        "station_name": "大亚湾管委会子站",
+        "station_code": "1396A"
+      }
+    ]
+  },
+  {
+    "city": "肇庆",
+    "stations": [
+      {
+        "station_name": "睦岗子站",
+        "station_code": "1397A"
+      },
+      {
+        "station_name": "城中子站",
+        "station_code": "1398A"
+      },
+      {
+        "station_name": "坑口子站",
+        "station_code": "1399A"
+      },
+      {
+        "station_name": "七星岩子站",
+        "station_code": "1400A"
+      }
+    ]
+  },
+  {
+    "city": "南宁",
+    "stations": [
+      {
+        "station_name": "振宁花园",
+        "station_code": "1401A"
+      },
+      {
+        "station_name": "北湖",
+        "station_code": "1402A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1403A"
+      },
+      {
+        "station_name": "大自然花园",
+        "station_code": "1404A"
+      },
+      {
+        "station_name": "仙葫",
+        "station_code": "1405A"
+      },
+      {
+        "station_name": "区农职院",
+        "station_code": "1406A"
+      },
+      {
+        "station_name": "英花嘉园",
+        "station_code": "1407A"
+      },
+      {
+        "station_name": "沙井镇街道办",
+        "station_code": "1408A"
+      }
+    ]
+  },
+  {
+    "city": "海口",
+    "stations": [
+      {
+        "station_name": "东寨港",
+        "station_code": "1409A"
+      },
+      {
+        "station_name": "海南大学",
+        "station_code": "1410A"
+      },
+      {
+        "station_name": "秀英海南医院",
+        "station_code": "1411A"
+      },
+      {
+        "station_name": "海南师范大学",
+        "station_code": "1412A"
+      },
+      {
+        "station_name": "龙华路环保局宿舍",
+        "station_code": "1413A"
+      }
+    ]
+  },
+  {
+    "city": "重庆",
+    "stations": [
+      {
+        "station_name": "缙云山",
+        "station_code": "1414A"
+      },
+      {
+        "station_name": "高家花园",
+        "station_code": "1415A"
+      },
+      {
+        "station_name": "天生",
+        "station_code": "1416A"
+      },
+      {
+        "station_name": "两路",
+        "station_code": "1417A"
+      },
+      {
+        "station_name": "虎溪",
+        "station_code": "1418A"
+      },
+      {
+        "station_name": "南坪",
+        "station_code": "1419A"
+      },
+      {
+        "station_name": "唐家沱",
+        "station_code": "1420A"
+      },
+      {
+        "station_name": "茶园",
+        "station_code": "1421A"
+      },
+      {
+        "station_name": "白市驿",
+        "station_code": "1422A"
+      },
+      {
+        "station_name": "解放碑",
+        "station_code": "1423A"
+      },
+      {
+        "station_name": "杨家坪",
+        "station_code": "1424A"
+      },
+      {
+        "station_name": "空港",
+        "station_code": "1425A"
+      },
+      {
+        "station_name": "新山村",
+        "station_code": "1426A"
+      },
+      {
+        "station_name": "礼嘉",
+        "station_code": "1427A"
+      },
+      {
+        "station_name": "鱼新街",
+        "station_code": "1429A"
+      },
+      {
+        "station_name": "蔡家",
+        "station_code": "1428A"
+      },
+      {
+        "station_name": "南泉",
+        "station_code": "1430A"
+      }
+    ]
+  },
+  {
+    "city": "成都",
+    "stations": [
+      {
+        "station_name": "金泉两河",
+        "station_code": "1431A"
+      },
+      {
+        "station_name": "十里店",
+        "station_code": "1432A"
+      },
+      {
+        "station_name": "三瓦窑",
+        "station_code": "1433A"
+      },
+      {
+        "station_name": "沙河铺",
+        "station_code": "1434A"
+      },
+      {
+        "station_name": "梁家巷",
+        "station_code": "1435A"
+      },
+      {
+        "station_name": "草堂寺",
+        "station_code": "1436A"
+      },
+      {
+        "station_name": "人民公园",
+        "station_code": "1437A"
+      },
+      {
+        "station_name": "灵岩寺",
+        "station_code": "1438A"
+      }
+    ]
+  },
+  {
+    "city": "贵阳",
+    "stations": [
+      {
+        "station_name": "马鞍山",
+        "station_code": "1439A"
+      },
+      {
+        "station_name": "市环保站",
+        "station_code": "1440A"
+      },
+      {
+        "station_name": "金阳新区",
+        "station_code": "1441A"
+      },
+      {
+        "station_name": "乌当区",
+        "station_code": "1442A"
+      },
+      {
+        "station_name": "花溪区",
+        "station_code": "1443A"
+      },
+      {
+        "station_name": "小河区",
+        "station_code": "1444A"
+      },
+      {
+        "station_name": "鸿边门",
+        "station_code": "1445A"
+      },
+      {
+        "station_name": "冶金厅",
+        "station_code": "1446A"
+      },
+      {
+        "station_name": "太慈桥",
+        "station_code": "1447A"
+      },
+      {
+        "station_name": "桐木岭",
+        "station_code": "1552A"
+      }
+    ]
+  },
+  {
+    "city": "昆明",
+    "stations": [
+      {
+        "station_name": "关上",
+        "station_code": "1449A"
+      },
+      {
+        "station_name": "呈贡新区",
+        "station_code": "1450A"
+      },
+      {
+        "station_name": "西山森林公园",
+        "station_code": "1451A"
+      },
+      {
+        "station_name": "龙泉镇",
+        "station_code": "1452A"
+      },
+      {
+        "station_name": "东风东路",
+        "station_code": "1453A"
+      },
+      {
+        "station_name": "金鼎山",
+        "station_code": "1454A"
+      },
+      {
+        "station_name": "碧鸡广场",
+        "station_code": "1455A"
+      }
+    ]
+  },
+  {
+    "city": "拉萨",
+    "stations": [
+      {
+        "station_name": "八廓街",
+        "station_code": "1456A"
+      },
+      {
+        "station_name": "市环保局",
+        "station_code": "1457A"
+      },
+      {
+        "station_name": "区监测站",
+        "station_code": "1458A"
+      },
+      {
+        "station_name": "西藏大学",
+        "station_code": "1459A"
+      },
+      {
+        "station_name": "区辐射站",
+        "station_code": "1460A"
+      },
+      {
+        "station_name": "拉萨火车站",
+        "station_code": "1461A"
+      }
+    ]
+  },
+  {
+    "city": "西安",
+    "stations": [
+      {
+        "station_name": "高压开关厂",
+        "station_code": "1462A"
+      },
+      {
+        "station_name": "兴庆小区",
+        "station_code": "1463A"
+      },
+      {
+        "station_name": "纺织城",
+        "station_code": "1464A"
+      },
+      {
+        "station_name": "小寨",
+        "station_code": "1465A"
+      },
+      {
+        "station_name": "市人民体育场",
+        "station_code": "1466A"
+      },
+      {
+        "station_name": "高新西区",
+        "station_code": "1467A"
+      },
+      {
+        "station_name": "经开区",
+        "station_code": "1468A"
+      },
+      {
+        "station_name": "长安区",
+        "station_code": "1469A"
+      },
+      {
+        "station_name": "阎良区",
+        "station_code": "1470A"
+      },
+      {
+        "station_name": "临潼区",
+        "station_code": "1471A"
+      },
+      {
+        "station_name": "草滩",
+        "station_code": "1472A"
+      },
+      {
+        "station_name": "曲江文化产业集团",
+        "station_code": "1473A"
+      },
+      {
+        "station_name": "广运潭",
+        "station_code": "1474A"
+      }
+    ]
+  },
+  {
+    "city": "兰州",
+    "stations": [
+      {
+        "station_name": "职工医院",
+        "station_code": "1475A"
+      },
+      {
+        "station_name": "兰炼宾馆",
+        "station_code": "1476A"
+      },
+      {
+        "station_name": "榆中兰大校区",
+        "station_code": "1477A"
+      },
+      {
+        "station_name": "生物制品所",
+        "station_code": "1478A"
+      },
+      {
+        "station_name": "铁路设计院",
+        "station_code": "1479A"
+      }
+    ]
+  },
+  {
+    "city": "西宁",
+    "stations": [
+      {
+        "station_name": "市环境监测站",
+        "station_code": "1480A"
+      },
+      {
+        "station_name": "省医药仓库",
+        "station_code": "1481A"
+      },
+      {
+        "station_name": "四陆医院",
+        "station_code": "1482A"
+      },
+      {
+        "station_name": "第五水厂",
+        "station_code": "1483A"
+      }
+    ]
+  },
+  {
+    "city": "银川",
+    "stations": [
+      {
+        "station_name": "贺兰山马莲口",
+        "station_code": "1484A"
+      },
+      {
+        "station_name": "宁安大街",
+        "station_code": "1486A"
+      },
+      {
+        "station_name": "宁化生活区",
+        "station_code": "1487A"
+      },
+      {
+        "station_name": "贺兰山东路",
+        "station_code": "1488A"
+      },
+      {
+        "station_name": "学院路",
+        "station_code": "1489A"
+      },
+      {
+        "station_name": "银湖巷",
+        "station_code": "1485A"
+      }
+    ]
+  },
+  {
+    "city": "乌鲁木齐",
+    "stations": [
+      {
+        "station_name": "监测站",
+        "station_code": "1490A"
+      },
+      {
+        "station_name": "收费所",
+        "station_code": "1491A"
+      },
+      {
+        "station_name": "新疆农科院农场",
+        "station_code": "1492A"
+      },
+      {
+        "station_name": "铁路局",
+        "station_code": "1493A"
+      },
+      {
+        "station_name": "三十一中学",
+        "station_code": "1494A"
+      },
+      {
+        "station_name": "七十四中学",
+        "station_code": "1495A"
+      },
+      {
+        "station_name": "米东区环保局",
+        "station_code": "1496A"
+      }
+    ]
+  },
+  {
+    "city": "北京",
+    "stations": [
+      {
+        "station_name": "万寿西宫",
+        "station_code": "1001A"
+      },
+      {
+        "station_name": "定陵",
+        "station_code": "1002A"
+      },
+      {
+        "station_name": "东四",
+        "station_code": "1003A"
+      },
+      {
+        "station_name": "天坛",
+        "station_code": "1004A"
+      },
+      {
+        "station_name": "农展馆",
+        "station_code": "1005A"
+      },
+      {
+        "station_name": "官园",
+        "station_code": "1006A"
+      },
+      {
+        "station_name": "海淀区万柳",
+        "station_code": "1007A"
+      },
+      {
+        "station_name": "顺义新城",
+        "station_code": "1008A"
+      },
+      {
+        "station_name": "怀柔镇",
+        "station_code": "1009A"
+      },
+      {
+        "station_name": "昌平镇",
+        "station_code": "1010A"
+      },
+      {
+        "station_name": "奥体中心",
+        "station_code": "1011A"
+      },
+      {
+        "station_name": "古城",
+        "station_code": "1012A"
+      }
+    ]
+  },
+  {
+    "city": "湘潭",
+    "stations": [
+      {
+        "station_name": "板塘",
+        "station_code": "1508A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1511A"
+      },
+      {
+        "station_name": "江麓",
+        "station_code": "1512A"
+      },
+      {
+        "station_name": "岳塘",
+        "station_code": "1513A"
+      },
+      {
+        "station_name": "科大",
+        "station_code": "1514A"
+      },
+      {
+        "station_name": "昭山",
+        "station_code": "1562A"
+      },
+      {
+        "station_name": "韶山",
+        "station_code": "1564A"
+      }
+    ]
+  },
+  {
+    "city": "株洲",
+    "stations": [
+      {
+        "station_name": "天台山庄",
+        "station_code": "1515A"
+      },
+      {
+        "station_name": "株冶医院",
+        "station_code": "1518A"
+      },
+      {
+        "station_name": "市四中",
+        "station_code": "1519A"
+      },
+      {
+        "station_name": "火车站",
+        "station_code": "1520A"
+      },
+      {
+        "station_name": "市监测站",
+        "station_code": "1524A"
+      },
+      {
+        "station_name": "大京风景区",
+        "station_code": "1559A"
+      }
+    ]
+  }
+]

@@ -31,9 +31,13 @@ body {
 }
 
 #footer {
-  top: 680px;
+  top: 780px;
   right: 140px;
   text-align: right;
+}
+
+#footer div select{
+  margin-top: 20px;
 }
 
 rect {

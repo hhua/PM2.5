@@ -18,6 +18,23 @@
 
                 }
             ]
+        },
+        {
+            "name": "镇江",
+            "children": [
+                {
+                    "name": "环境监测站",
+                    "children": [
+                        {"name": "AQI", "size": 94},
+                        {"name": "CO", "size": 100},
+                        {"name": "NO2", "size": 37},
+                        {"name": "O3_8H", "size": 70},
+                        {"name": "pm10", "size": 203},
+                        {"name": "pm2.5", "size": 67},
+                        {"name": "so2", "size": 51}
+                    ]
+                }
+            ]
         }
     ]
 }
