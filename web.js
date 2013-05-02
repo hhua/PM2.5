@@ -8,6 +8,7 @@ handle["/start"] = requestHandlers.start;
 handle["/cities"] = requestHandlers.cities;
 handle["/allcities"] = requestHandlers.allcities;
 handle["/parseCityData"] = requestHandlers.parseCityData;
+handle["/about"] = requestHandlers.aboutPage;
 
 server.start(router.route, handle);
 

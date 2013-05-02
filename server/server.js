@@ -24,10 +24,15 @@ function start(route, handle){
 		route(handle, '/parseCityData', res);
 	});
 
+	app.get('/about', function(req, res){
+		route(handle, '/about', res);
+	});
+
 	app.use(express.static('./css'));
 	app.use(express.static('./js'));
 	app.use(express.static('./img'));
 	app.use(express.static('./html'));
+	app.use(express.static('./metadata'));
 
 	var port = process.env.PORT || 3000;
 	app.listen(port);

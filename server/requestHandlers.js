@@ -40,7 +40,15 @@ function parseAllCitiesData(response){
     response.end();
 }
 
+function aboutPage(response){
+    console.log("Request handler 'about' was called.");
+
+    //response.sendfile(__dirname + '/html/test.html');
+    response.sendfile('./html/about.html');
+}
+
 exports.start = start;
 exports.cities = getAllCities;
 exports.allcities = getAllCitiesData;
 exports.parseCityData = parseAllCitiesData;
+exports.aboutPage = aboutPage;
