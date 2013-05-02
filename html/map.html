@@ -19,10 +19,33 @@
 		<script type="text/javascript" src="/QuadTree.js"></script>
  		<script type="text/javascript" src="/heatmap.js"></script>
         <script type="text/javascript" src="/heatmap-leaflet.js"></script>
+        <script type="text/javascript">
+            var clock;
+
+            function stopClock(){
+                clearTimeout(clock);
+            }
+
+            function startClock(){
+                var nd = new Date();
+                var h, m;
+                var s;
+                var time = "Time Now: ";
+                h = nd.getHours();
+                m = nd.getMinutes();
+                s = nd.getSeconds();
+                if (h <= 9) h = "0" + h;
+                if (m <= 9) m = "0" + m;
+                if (s <= 9) s = "0" + s;
+                time += h + ":" + m + ":" + s + " UTC-4"; 
+                document.getElementById('timenow').innerHTML = time;
+                clock = setTimeout("startClock()", 1000);
+            }
+        </script>
  		
  		
 	</head>
-	<body>
+	<body onload="startClock()" onUnload="stopClock(); return true">
 		<div class="container">
 			<div class="navbar">
 				<div class="navbar-inner">
@@ -36,6 +59,10 @@
 					</ul>
 				</div>
 			</div>
+            <div class="row">
+                <div class="span4" id="timenow"></div>
+                <div class="span4 offset4" id="timeupdate"></div>
+            </div>
 			<div id="map"></div>
 		</div>
 
@@ -257,6 +284,117 @@
                 });
                 pm10_Data['data'] = pm10_Array;
 
+                // extract SO2
+                var so2_List = {};
+                for (var i = 0; i < data.length; i++){
+                    var area = data[i].area;
+                    if(area in so2_List){ // exists
+                        var item = so2_List[area];
+                        if(data[i].so2 > item[2]){
+                            item[2] = data[i].so2;
+                            so2_List[area] = item;
+                        }
+                    }else{
+                        if(area != null){
+                        var LatLng = geolocation[area];
+                        var item = [];
+                        item[0] = LatLng[0];
+                        item[1] = LatLng[1];
+                        item[2] = data[i].so2;
+                        so2_List[area] = item;
+                        }
+                    }  
+                }
+
+                var so2_Data = {};
+                so2_Data['max'] = 100;
+                var so2_Array = [];
+                index = 0;
+                Object.keys(so2_List).forEach(function (key){
+                    var item = so2_List[key];
+                    var new_item = {};
+                    new_item['lat'] = item[0];
+                    new_item['lon'] = item[1];
+                    new_item['value'] = item[2];
+                    so2_Array[index] = new_item;
+                    index++;
+                });
+                so2_Data['data'] = so2_Array;
+
+                // extract NO2
+                var no2_List = {};
+                for (var i = 0; i < data.length; i++){
+                    var area = data[i].area;
+                    if(area in no2_List){ // exists
+                        var item = no2_List[area];
+                        if(data[i].no2 > item[2]){
+                            item[2] = data[i].no2;
+                            no2_List[area] = item;
+                        }
+                    }else{
+                        if(area != null){
+                        var LatLng = geolocation[area];
+                        var item = [];
+                        item[0] = LatLng[0];
+                        item[1] = LatLng[1];
+                        item[2] = data[i].no2;
+                        no2_List[area] = item;
+                        }
+                    }  
+                }
+
+                var no2_Data = {};
+                no2_Data['max'] = 100;
+                var no2_Array = [];
+                index = 0;
+                Object.keys(no2_List).forEach(function (key){
+                    var item = no2_List[key];
+                    var new_item = {};
+                    new_item['lat'] = item[0];
+                    new_item['lon'] = item[1];
+                    new_item['value'] = item[2];
+                    no2_Array[index] = new_item;
+                    index++;
+                });
+                no2_Data['data'] = no2_Array;
+
+                // extract O3 / 8H Avg
+                var o3_List = {};
+                for (var i = 0; i < data.length; i++){
+                    var area = data[i].area;
+                    if(area in o3_List){ // exists
+                        var item = o3_List[area];
+                        if(data[i].o3_8h > item[2]){
+                            item[2] = data[i].o3_8h;
+                            o3_List[area] = item;
+                        }
+                    }else{
+                        if(area != null){
+                        var LatLng = geolocation[area];
+                        var item = [];
+                        item[0] = LatLng[0];
+                        item[1] = LatLng[1];
+                        item[2] = data[i].o3_8h;
+                        o3_List[area] = item;
+                        }
+                    }  
+                }
+
+                var o3_Data = {};
+                o3_Data['max'] = 200;
+                var o3_Array = [];
+                index = 0;
+                Object.keys(o3_List).forEach(function (key){
+                    var item = o3_List[key];
+                    var new_item = {};
+                    new_item['lat'] = item[0];
+                    new_item['lon'] = item[1];
+                    new_item['value'] = item[2];
+                    o3_Array[index] = new_item;
+                    index++;
+                });
+                o3_Data['data'] = o3_Array;
+
 
                 // drawmap
                 var map = L.map('map').setView([30.9043, 110.4677], 5);
@@ -302,15 +440,59 @@
                     }
                 }).addTo(map);
 
+                var so2_Layer = L.TileLayer.heatMap({
+                    //LatLng: [30.9043, 110.4677],
+                    radius: 20,
+                    opacity: 0.8,
+                    gradient: {
+                        0.45: "rgb(0,0,255)",
+                        0.55: "rgb(0,255,255)",
+                        0.65: "rgb(0,255,0)",
+                        0.95: "yellow",
+                        1.0: "rgb(255,0,0)"
+                    }
+                }).addTo(map);
+
+                var no2_Layer = L.TileLayer.heatMap({
+                    //LatLng: [30.9043, 110.4677],
+                    radius: 20,
+                    opacity: 0.8,
+                    gradient: {
+                        0.45: "rgb(0,0,255)",
+                        0.55: "rgb(0,255,255)",
+                        0.65: "rgb(0,255,0)",
+                        0.95: "yellow",
+                        1.0: "rgb(255,0,0)"
+                    }
+                }).addTo(map);
+
+                var o3_Layer = L.TileLayer.heatMap({
+                    //LatLng: [30.9043, 110.4677],
+                    radius: 20,
+                    opacity: 0.8,
+                    gradient: {
+                        0.45: "rgb(0,0,255)",
+                        0.55: "rgb(0,255,255)",
+                        0.65: "rgb(0,255,0)",
+                        0.95: "yellow",
+                        1.0: "rgb(255,0,0)"
+                    }
+                }).addTo(map);
+
                 aqiLayer.addData(aqiData.data);
                 pm25_Layer.addData(pm25_Data.data);
                 pm10_Layer.addData(pm10_Data.data);
+                so2_Layer.addData(so2_Data.data);
+                no2_Layer.addData(no2_Data.data);
+                o3_Layer.addData(o3_Data.data);
  
                 var overlayMaps = {
-                  'PM2.5': pm25_Layer,
                   'AQI': aqiLayer,
-                  'PM10': pm10_Layer
-                  
+                  'PM2.5': pm25_Layer,
+                  'PM10': pm10_Layer,
+                  'SO2': so2_Layer,
+                  'N02': no2_Layer,
+                  'O3':o3_Layer
                 };
  
                 var controls = L.control.layers(null, overlayMaps, {collapsed: false});
