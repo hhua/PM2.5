@@ -5,11 +5,11 @@ function start(route, handle){
 	app.use(express.logger());
 
 	app.get('/' , function(req, res){
-		route(handle, '/start', res);
+		route(handle, '/', res);
 	});
 
 	app.get('/map', function(req, res){
-		route(handle, '/start', res);
+		route(handle, '/map', res);
 	});
 
 	app.get('/cities', function(req, res){

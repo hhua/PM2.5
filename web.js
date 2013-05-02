@@ -3,8 +3,8 @@ var router = require("./server/router");
 var requestHandlers = require("./server/requestHandlers");
 
 var handle = {};
-handle["/"] = requestHandlers.start;
-handle["/start"] = requestHandlers.start;
+handle["/"] = requestHandlers.map;
+handle["/map"] = requestHandlers.map;
 handle["/cities"] = requestHandlers.cities;
 handle["/allcities"] = requestHandlers.allcities;
 handle["/parseCityData"] = requestHandlers.parseCityData;

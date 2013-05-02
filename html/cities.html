@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>AQI China Visualization | Cities</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Bootstrap -->
@@ -9,6 +10,8 @@
     <link type="text/css" rel="stylesheet" href="/style.css"/>
     <script type="text/javascript" src="/d3/d3.js"></script>
     <script type="text/javascript" src="/d3/d3.layout.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
     <style type="text/css">
 
 .chart {
@@ -33,7 +36,7 @@ rect {
         <div class="navbar-inner">
           <ul class="nav">
               <li>
-                <a href="/">PM2.5</a>
+                <a href="/">Home</a>
               </li>
               <li><a href="/map">Map</a></li>
               <li class="active"><a href="/allcities">Cities</a></li>
@@ -77,6 +80,18 @@ var svg = d3.select("#body").append("div")
     .attr("height", h)
   .append("svg:g")
     .attr("transform", "translate(.5,.5)");
+
+            $(function(){
+                $.ajax({
+                url: '/cities', //the URL to your node.js server that has data
+                dataType: 'json',
+                cache: false
+            }).done(function(data){
+                //"data" will be JSON. Do what you want with it. 
+                //alert(data);
+                
+                }); 
+            });
 
 d3.json("/test.json", function(data) {
   //alert(data);
