@@ -2,6 +2,7 @@ var express = require('express');
 
 function start(route, handle){
 	var app = express();
+	app.use(express.logger());
 
 	app.get('/' , function(req, res){
 		route(handle, '/start', res);
@@ -28,8 +29,9 @@ function start(route, handle){
 	app.use(express.static('./img'));
 	app.use(express.static('./html'));
 
-	app.listen(3000);
-	console.log('Listening on port 3000');
+	var port = process.env.PORT || 3000;
+	app.listen(port);
+	console.log('Listening on port ' + port);
 }
 
 exports.start = start;	
