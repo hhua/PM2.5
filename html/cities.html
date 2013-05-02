@@ -37,6 +37,7 @@ rect {
               </li>
               <li><a href="/map">Map</a></li>
               <li class="active"><a href="/allcities">Cities</a></li>
+              <li><a href="/about">About</a></li>
           </ul>
         </div>
       </div>
@@ -77,7 +78,7 @@ var svg = d3.select("#body").append("div")
   .append("svg:g")
     .attr("transform", "translate(.5,.5)");
 
-d3.json("/allcities_chinese.json", function(data) {
+d3.json("/test.json", function(data) {
   //alert(data);
   node = root = data;
 
