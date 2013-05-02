@@ -35,8 +35,7 @@ function getAllCities(response){
   //var obj = {'hello' : 10};
 
   // choice two
-  var test_cities = require("../html/test_cities")
-  console.log("Got response: " + test_cities);
+  var test_cities = require("../html/test_cities");
 
   response.write(
   	//JSON.stringify(obj)
