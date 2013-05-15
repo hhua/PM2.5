@@ -35,7 +35,7 @@ function getAllCities(response){
   //var obj = {'hello' : 10};
 
   // choice two
-  var test_cities = require("../html/test_cities");
+  var test_cities = require("../metadata/allcities.json");
 
   response.write(
   	//JSON.stringify(obj)
