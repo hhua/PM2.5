@@ -38,7 +38,7 @@ setInterval(function() {
         		console.log("Got response: " + response);
 
         		// write file to json
-        		fs.writeFile('./metadata/allcities.json', JSON.stringify(body, null, 3), function (err) {
+        		fs.writeFile('./metadata/allcities.json', body, function (err) {
   					if (err) throw err;
   					console.log('It\'s saved!');
 				});
@@ -50,4 +50,4 @@ setInterval(function() {
 	}catch(err){
 		throw err;
 	}
-}, 10000);
+}, 2700000);

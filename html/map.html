@@ -11,6 +11,16 @@
  		<!--[if lte IE 8]>
      		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.ie.css" />
  		<![endif]-->
+        <style type="text/css">
+            .table th{
+                text-align: center;
+
+            }
+
+            .table td{
+                text-align: center;
+            }
+        </style>
  		
  		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
@@ -30,14 +40,14 @@
                 var nd = new Date();
                 var h, m;
                 var s;
-                var time = "Time Now: ";
+                var time = "当前时间 Time Now: ";
                 h = nd.getHours();
                 m = nd.getMinutes();
                 s = nd.getSeconds();
                 if (h <= 9) h = "0" + h;
                 if (m <= 9) m = "0" + m;
                 if (s <= 9) s = "0" + s;
-                time += h + ":" + m + ":" + s + " UTC-4"; 
+                time += h + ":" + m + ":" + s + " UTC+8"; 
                 document.getElementById('timenow').innerHTML = time;
                 clock = setTimeout("startClock()", 1000);
             }
@@ -78,7 +88,7 @@
             </div>
             <div class="row">
                 <div class="span4" id="timenow"></div>
-                <div class="span4 offset4" id="timeupdate"></div>
+                <div class="span5 offset3" id="timeupdate"></div>
             </div>
 			<div id="map"></div>
             <div id="legend" class="row">
@@ -206,7 +216,7 @@
                 var dString = d.toString();
                 dString = dString.substring(3, dString.length - 15);
 
-                document.getElementById('timeupdate').innerHTML = "Last Update: " + dString + " UTC+8";
+                document.getElementById('timeupdate').innerHTML = "数据更新时间 Last Update: " + dString + " UTC+8";
 
                 //alert(element);
                 drawMap(parsedData);
@@ -245,23 +255,43 @@
                     }
                 }
 
-                var table = document.getElementById('infotable');
-                var content = '<table class="table table-striped"><caption>AQI for cities</caption><thead><tr><th>City</th><th>AQI</th><th>NO2</th><th>O3 8h</th><th>PM10</th><th>PM2.5</th><th>SO2</th><th>Quality Level</th></tr></thead><tbody>';
-
+                // sort infotable
+                var infotable_list = [];
                 Object.keys(infotable).forEach(function (key){
                     var item = infotable[key];
-                    var new_item = '<tr>';
-                    new_item += '<td>' + key + '</td>';
+                    var new_item = [];
+                    new_item.push(key);
+                    new_item.push(item[0]);
+                    new_item.push(item[1]);
+                    new_item.push(item[2]);
+                    new_item.push(item[3]);
+                    new_item.push(item[4]);
+                    new_item.push(item[5]);
+                    new_item.push(item[6]);
+                    infotable_list.push(new_item);
+                });
+                infotable_list.sort(function(a, b){
+                    return a[1] - b[1];
+                });
+
+                // show table
+                var table = document.getElementById('infotable');
+                var content = '<table class="table table-striped"><caption>AQI for cities</caption><thead><tr><th>排名<br>Rank</th><th>城市<br>City</th><th>空气质量指数<br>AQI</th><th>二氧化氮<br>NO2</th><th>臭氧8小时平均<br>O3 8h</th><th>PM10<br>可吸入颗粒</th><th>PM2.5<br>颗粒</th><th>二氧化硫<br>SO2</th><th>空气质量<br>Quality Level</th></tr></thead><tbody>';
+
+                for(var i = 0; i < infotable_list.length; i++){
+                    var item = infotable_list[i];
+                    var new_item = '<tr><td>' + (i + 1) + '</td>';
                     new_item += '<td>' + item[0] + '</td>';
                     new_item += '<td>' + item[1] + '</td>';
                     new_item += '<td>' + item[2] + '</td>';
                     new_item += '<td>' + item[3] + '</td>';
                     new_item += '<td>' + item[4] + '</td>';
                     new_item += '<td>' + item[5] + '</td>';
-                    new_item += '<td>' + item[6] + ' | ' + quality[item[6]] + '</td>';
+                    new_item += '<td>' + item[6] + '</td>';
+                    new_item += '<td>' + item[7] + ' | ' + quality[item[7]] + '</td>';
                     new_item += '</tr>';
                     content += new_item;
-                });
+                }
                 content += '</tbody></table>';
                 table.innerHTML = content;
 

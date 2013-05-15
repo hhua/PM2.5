@@ -2,6 +2,9 @@
 
 China didn't open PM2.5 data to public until recently. The studio BestApp.us in Guangzhou, China collected and veirfied data from official sources, and opened API to public.
 
+## About Project
+[Live Demo](http://tranquil-basin-8669.herokuapp.com)
+
 ## Tips for Using API
 * Data from API is in Unicode format, you may use JDK command to convert Unicode to UTF-8 
 
