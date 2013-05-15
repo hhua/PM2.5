@@ -1,3 +1,6 @@
+![AQI China | Map](http://farm8.staticflickr.com/7285/8740855360_9105133684_b.jpg)
+![AQI China | Rank](http://farm8.staticflickr.com/7290/8739739499_e4c8216f9e_o.png)
+
 ## PM2.5 Visualization @mainland, China
 
 China didn't open PM2.5 data to public until recently. The studio BestApp.us in Guangzhou, China collected and veirfied data from official sources, and opened API to public.

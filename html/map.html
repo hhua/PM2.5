@@ -38,16 +38,12 @@
 
             function startClock(){
                 var nd = new Date();
-                var h, m;
-                var s;
+                var dateString = nd.toString();
+                var dateElements = dateString.split(" ");
+               
                 var time = "当前时间 Time Now: ";
-                h = nd.getHours();
-                m = nd.getMinutes();
-                s = nd.getSeconds();
-                if (h <= 9) h = "0" + h;
-                if (m <= 9) m = "0" + m;
-                if (s <= 9) s = "0" + s;
-                time += h + ":" + m + ":" + s + " UTC+8"; 
+                
+                time += dateElements[4] + ' ' + dateElements[5]; 
                 document.getElementById('timenow').innerHTML = time;
                 clock = setTimeout("startClock()", 1000);
             }
