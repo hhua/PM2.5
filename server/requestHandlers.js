@@ -1,4 +1,4 @@
-
+var database = require("./database");
 
 function map(response) {
   console.log("Request handler 'map' was called.");
@@ -35,18 +35,19 @@ function getAllCities(response){
   //var obj = {'hello' : 10};
 
   // choice two
-  var test_cities = require("../metadata/allcities.json");
+  //var test_cities = require("../metadata/allcities.json");
+  database.openDbQuery({}, response);
 
-  response.write(
-  	//JSON.stringify(obj)
-    //JSON.stringify({ 
-      //anObject: obj,
-      //anArray: otherArray, 
-      //another: "item",
-    //})
-    JSON.stringify(test_cities)
-  );
-  response.end();
+  // response.write(
+  // 	//JSON.stringify(obj)
+  //   //JSON.stringify({ 
+  //     //anObject: obj,
+  //     //anArray: otherArray, 
+  //     //another: "item",
+  //   //})
+  //   JSON.stringify(test_cities)
+  // );
+  // response.end();
 }
 
 function getAllCitiesData(response){
