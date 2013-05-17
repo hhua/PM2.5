@@ -53,5 +53,15 @@ function openDbQuery(query, response){
     });
 }
 
+function insertDocument(collection, doc, done){
+    collection.insert(doc, function onInserted(err){
+        if(err){
+            done(err);
+            return;
+        }
+        done(null);
+    });
+}
+
 exports.openDbInsert = openDbInsert;
 exports.openDbQuery = openDbQuery;
