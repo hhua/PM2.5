@@ -13,8 +13,8 @@ function init() {
 
 		// get AQI data
 		var http = require('http');
-		//var url = 'http://pm25.in/api/querys/all_cities.json?token=' + api_key;
-		var url = 'http://pm25.in/api/querys.json?token=' + api_key;
+		var url = 'http://pm25.in/api/querys/all_cities.json?token=' + api_key;
+		//var url = 'http://pm25.in/api/querys.json?token=' + api_key;
 
 		http.get(url, function(res) {
 			var body = '';
