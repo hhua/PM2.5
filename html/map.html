@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    	<head>
-		<title>AQI China Visualization | Home</title>
+		<title>AQI China Visualization</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<!-- Bootstrap -->
     	<link href="/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -14,7 +14,6 @@
         <style type="text/css">
             .table th{
                 text-align: center;
-
             }
 
             .table td{
@@ -49,7 +48,16 @@
             }
         </script>
  		
- 		
+ 		<script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-35271205-3', 'tranquil-basin-8669.herokuapp.com');
+          ga('send', 'pageview');
+
+        </script>
 	</head>
 	<body onload="startClock()" onUnload="stopClock(); return true">
 		<div class="container">
@@ -72,12 +80,12 @@
                     <br />
                     <br />
 
-                    Thanks to BestApp.us lab in Guangzhou, China, I am allowed to launch this project to collect air quality data of 76 cities in China and provide a better way of visualizing air quality data in China and spread it to more people in China. Next step for this project is to connect health protection information with specific dangerous air pollution weather. 
+                    Thanks to <a href="http://pm25.in/">BestApp.us</a> lab in Guangzhou, China, I am allowed to launch this project to collect air quality data of 76 cities in China and provide a better way of visualizing air quality data in China and spread it to more people in China. Next step for this project is to connect health protection information with specific dangerous air pollution weather. 
 
                     <br />
                     <br />
 
-                    Data sources of this project are merged by BestApp lab. The are specifically collected from US Embassy in Beijing, EPA and Department of Environment of China, etc. Data could be with come flaws within a certain level. A pressure should be always on the shoulder of government why air pollution is so severe and how much economic growth did cost in the past 30 years.
+                    Data sources of this project are merged by <a href="http://pm25.in/">BestApp Lab</a>. The are specifically collected from <a href="http://beijing.usembassy-china.org.cn/">US Embassy in Beijing</a>, <a href="http://www.epa.gov/">EPA</a> and <a href="http://english.mep.gov.cn/">Department of Environment of China</a>, etc. Data could be with come flaws within a certain level. A pressure should be always on the shoulder of government why air pollution is so severe and how much economic growth did cost in the past 30 years.
                     <br />
                     <br />
                 </div>
@@ -92,6 +100,19 @@
                 <div class="span1 offset9">Hazardous</div>
             </div>
             <div id="infotable"></div>
+            <div class="row">
+                <div class="span12">
+                    <h3>Thanks</h3>
+                    <br>
+                    <br>
+                    This website was built as the final project for <a href="http://golancourses.net/2013/">Interactive Art and Computational Design</a> taught by Professor <a href="http://www.flong.com/">Golan Levin</a> in Spring 2013. You may also see the <a href="http://golancourses.net/2013/hhua/05/09/final-project-aqi-china/">post</a> for this project.
+                    <br>
+                    <br>
+                    I also would like to thank BestApp team for their awesome contribution to <a href="http://pm25.in/">PM25.in</a>. I'd love to thank Professor Levin, Dan and all classmates, who gave me so many advices and support.
+
+                    Next level for this project is to accumulate history data of air quality in China. If you are interested in joining me, feel free to at me on <a href="https://twitter.com/AlanHuaCN">Twitter</a> or <a href="http://weibo.com/1899748007/profile">Weibo</a>.
+                </div>
+            </div>
             <div id="footer">
                 <hr />
                 <br />
